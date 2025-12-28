@@ -7,7 +7,7 @@ This project is a multi-user chat server built using raw C++ and basic networkin
 ## How It Works (Architecture)
 Here is the blueprint of how the clients, server, and database all talk to each other:
 
-[**System Architecture**](architecture_diagram.jpeg)
+![**System Architecture**](architecture_diagram.jpeg)
 
 ## Coolest Features
 
