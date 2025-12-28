@@ -1,15 +1,15 @@
-# Real-Time C++ Chat Server 🚀
+# Real-Time C++ Chat Server 
 
 I wanted to understand how chat apps like WhatsApp actually work under the hood, so I challenged myself to build one from scratch.
 
 This project is a multi-user chat server built using raw C++ and basic networking (Winsock). It lets people connect, register, and send messages instantly.
 
-## 🏗️ How It Works (Architecture)
+## How It Works (Architecture)
 Here is the blueprint of how the clients, server, and database all talk to each other:
 
 [**System Architecture**](architecture_diagram.jpeg)
 
-## ✨ Coolest Features
+## Coolest Features
 
 - **Talk to Everyone:** Multiple people can connect and chat at the exact same time.
 - **Built from Scratch:** No easy libraries used. I wrote the logic to manage how data packets move.
@@ -17,12 +17,12 @@ Here is the blueprint of how the clients, server, and database all talk to each 
 - **Private Messaging:** You can talk to the whole group or send private DMs using commands.
 - **Color-Coded CLI:** The console uses different colors for private messages vs public chats.
 
-## 🧰 Tech Stack
+## Tech Stack
 - Language: C++
 - Networking: Winsock2
 - Database: SQLite3
 
-## 🚀 How to Try It
+## How to Try It
 1.  Download/Clone the code.
 2.  Open it in Visual Studio 2022.
 3.  Build and run the Server project first.
